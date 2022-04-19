@@ -201,7 +201,7 @@ li{
         justify-content: center;
     }
 }
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 320px) {
     .main1{
         width: 130%;
         height: 100%;
@@ -302,7 +302,7 @@ li{
     }
     
 }
-@media only screen and (max-width: 350px){
+@media only screen and (max-width: 320px){
     .main2{
         width: 130%;
         display: flex;
@@ -384,7 +384,7 @@ li{
 
     }
 }
-@media only screen and (max-width: 350px){
+@media only screen and (max-width: 320px){
     .main3{
         width: 110%;
         display: flex;
@@ -499,7 +499,7 @@ li{
 
     }
 }
-@media only screen and (max-width: 350px){
+@media only screen and (max-width: 320px){
     .main4{
         width: 120%;
         display: flex;
@@ -610,7 +610,7 @@ li{
     }
 
 }
-@media only screen and (max-width: 350px){
+@media only screen and (max-width: 320px){
     .main5{
         width: 120%;
         height: 100vh; 
@@ -693,7 +693,7 @@ li{
         height: 100vh;
     }
 }
-@media only screen and (max-width: 350px){
+@media only screen and (max-width: 320px){
     .main6{
         width: 130%;
         height: 130vh;
@@ -804,7 +804,7 @@ li{
     border: 2px solid #d8c4a1;
     transition: 1s;
 }
-@media only screen and (max-width: 350px){
+@media only screen and (max-width: 320px){
     .main7{
         width: 130%;
       
