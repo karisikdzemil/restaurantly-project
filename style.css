@@ -203,7 +203,7 @@ li{
 }
 @media only screen and (max-width: 350px) {
     .main1{
-        width: 100%;
+        width: 130%;
         height: 100%;
         background-size: 100%;
         display: flex;
@@ -213,6 +213,9 @@ li{
         background-repeat: repeat-x;
         font-size: 12vh;
         text-align: center;
+    }
+    .sef{
+        margin-top: 2rem;
     }
     #deliver{
         display: none;
@@ -299,6 +302,15 @@ li{
     }
     
 }
+@media only screen and (max-width: 350px){
+    .main2{
+        width: 130%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    
+}
 .main3{
     width: 100%;
     height: 80vh;
@@ -356,6 +368,25 @@ li{
 @media only screen and (max-width: 620px){
     .main3{
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      
+    }
+    .card1{
+        width: 80%;
+        margin: 20px 0;
+    }
+    .prim{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+@media only screen and (max-width: 350px){
+    .main3{
+        width: 110%;
         display: flex;
         flex-direction: column;
         height: 100%;
@@ -468,6 +499,40 @@ li{
 
     }
 }
+@media only screen and (max-width: 350px){
+    .main4{
+        width: 120%;
+        display: flex;
+        flex-direction: column;
+        height: 290vh;
+      
+    }
+    .must{
+        width: 100%;
+    }
+    .fjf{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100vh;
+        width: 100%;
+    }
+    .c2{
+        margin: 0 7px;
+    }
+    .best{
+        width: 90%;
+        height: 150vh;
+        flex-wrap: wrap;
+
+    }
+
+    .prim{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+}
 .main5{
     width: 100%;
     height: 80vh;
@@ -545,6 +610,30 @@ li{
     }
 
 }
+@media only screen and (max-width: 350px){
+    .main5{
+        width: 120%;
+        height: 100vh; 
+    }
+    .flex{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .list{
+        width: 100%;
+    }
+    .spec-img{
+        display: none;
+    }
+    .spec-par{
+        display: none;
+    }
+
+}
 .main6{
     width: 100%;
     height: 100vh;
@@ -590,6 +679,35 @@ li{
         align-items: center;
         height: 100vh;
         justify-content: space-evenly;
+    }
+    .birth{
+        width: 90%;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .birth-par{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100vh;
+    }
+}
+@media only screen and (max-width: 350px){
+    .main6{
+        width: 130%;
+        height: 130vh;
+      
+    }
+    .birth-ev{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        justify-content: space-evenly;
+    }
+    .none{
+        display: none;
     }
     .birth{
         width: 90%;
@@ -685,4 +803,32 @@ li{
     background-color: #d8c4a1;
     border: 2px solid #d8c4a1;
     transition: 1s;
+}
+@media only screen and (max-width: 350px){
+    .main7{
+        width: 130%;
+      
+    }
+    .form{
+        margin-left: 7rem;
+    }
+    #reservation3{
+        display: none;
+    }
+    #reservation6{
+        display: none;
+    }
+    #reservation-7{
+        display: none;
+    }
+    .form-pos{
+        width: 50%;
+    }
+    #form-but1{
+        width: 7rem;
+        height: 10vh;
+        margin-left: 11rem;
+    }
+    
+
 }
