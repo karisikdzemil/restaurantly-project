@@ -238,6 +238,43 @@ li{
         display: none;
     }
 }
+@media only screen and (max-width: 370px) {
+    .main1{
+        width: 130%;
+        height: 100%;
+        background-size: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-size:100% ;
+        background-repeat: repeat-x;
+        font-size: 12vh;
+        text-align: center;
+    }
+    .sef{
+        margin-top: 2rem;
+    }
+    #deliver{
+        display: none;
+    }
+    .li1{
+        display: none;
+    }
+    #book{
+        display: none;
+    }
+    .button{
+        display: none;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ftr{
+        display: none;
+    }
+}
 .main2{
     background-image: url("./images/slika3.jpg");
     width: 100%;
