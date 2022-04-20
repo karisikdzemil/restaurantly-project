@@ -21,6 +21,10 @@ header{
     left: 0;
 
 }
+.old{
+    display: flex;
+    flex-direction: column;
+}
 .contact{
     width: 100%;
     height: 5vh;
@@ -239,6 +243,7 @@ li{
     }
 }
 
+
 .main2{
     background-image: url("./images/slika3.jpg");
     width: 100%;
@@ -317,6 +322,7 @@ li{
     height: 80vh;
     background-color: #15171a;
     display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
     justify-content: flex-start;
     filter: brightness(0.40);
@@ -395,7 +401,7 @@ li{
     }
     .card1{
         width: 80%;
-        margin: 20px 0;
+        height: 30%;
     }
     .prim{
         width: 100%;
@@ -404,11 +410,18 @@ li{
 
     }
 }
-
+@media only screen and (max-width: 310px){
+    #none4{
+        width: 100%;
+        height: 25vh;
+    }
+}
 .main4{
     width: 100%;
     height: 120vh;
     background-color: #1a1814;
+    display: flex;
+    flex-direction: column;
 }
 .ul{
     display: flex;
@@ -534,9 +547,16 @@ li{
 
     }
 }
+@media only screen and (max-width: 320px) {
+    #none1, #none2{
+        display: none;
+    }
+    }
 .main5{
     width: 100%;
     height: 80vh;
+    display: flex;
+    flex-direction: column;
 }
 .flex{
     width: 100%;
@@ -642,6 +662,8 @@ li{
     background-size: 100%;
     filter: brightness(0.50);
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
 }
 .birth-ev{
     width: 100%;
@@ -726,6 +748,8 @@ li{
 .main7{
     width: 100%;
     height: 95vh;
+    display: flex;
+    flex-direction: column;
 }
 .form-pos{
     display: flex;
