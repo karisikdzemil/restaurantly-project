@@ -201,7 +201,7 @@ li{
         justify-content: center;
     }
 }
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 420px) {
     .main1{
         width: 130%;
         height: 100%;
@@ -303,7 +303,7 @@ li{
     }
     
 }
-@media only screen and (max-width: 370px){
+@media only screen and (max-width: 420px){
     .main2{
         width: 130%;
         display: flex;
@@ -385,7 +385,7 @@ li{
 
     }
 }
-@media only screen and (max-width: 370px){
+@media only screen and (max-width: 420px){
     .main3{
         width: 110%;
         display: flex;
@@ -500,7 +500,7 @@ li{
 
     }
 }
-@media only screen and (max-width: 370px){
+@media only screen and (max-width: 420px){
     .main4{
         width: 120%;
         display: flex;
@@ -611,7 +611,7 @@ li{
     }
 
 }
-@media only screen and (max-width: 370px){
+@media only screen and (max-width: 420px){
     .main5{
         width: 120%;
         height: 100vh; 
@@ -694,7 +694,7 @@ li{
         height: 100vh;
     }
 }
-@media only screen and (max-width: 370px){
+@media only screen and (max-width: 420px){
     .main6{
         width: 130%;
         height: 130vh;
@@ -805,7 +805,7 @@ li{
     border: 2px solid #d8c4a1;
     transition: 1s;
 }
-@media only screen and (max-width: 370px){
+@media only screen and (max-width: 420px){
     .main7{
         width: 130%;
       
@@ -813,7 +813,28 @@ li{
     .form{
         margin-left: 7rem;
     }
+    #reservation1{
+        grid-column-start: 1;
+        grid-column-end: 8;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    #reservation2{
+        grid-column-start: 1;
+        grid-column-end: 8;
+        grid-row-start: 3;
+        grid-row-end: 2;
+    }
+    #reservation5{
+        grid-column-start: 1;
+        grid-column-end: 8;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
     #reservation3{
+        display: none;
+    }
+    #reservation4{
         display: none;
     }
     #reservation6{
