@@ -14,7 +14,6 @@ header{
     height: 16vh;
     color: white;
     z-index: 2;
-    margin-top: -10px;
     position: fixed;
     top: 0px;
     right: 0;
@@ -72,10 +71,10 @@ header{
     flex-direction: column;
     font-size: 15px;
 }
-nav{
+/* nav{
     position: sticky;
     top: 0px;
-}
+} */
 .li1:hover{
     color: #CDA45E;
 }
@@ -95,6 +94,19 @@ li{
     display: inline-block;
     font-size: 16px;
 
+}
+/* mdmd */
+.li-drop{
+    display: none;
+}
+.ul-drop{
+    display: none;
+}
+/* ubw */
+#icon{
+    width: 1rem;
+    height: 3vh;
+    color: white;
 }
 #rest{
     font-size: 27px;
@@ -177,7 +189,18 @@ li{
     margin-top: 20px;
     margin-right: 15px;
 }
-@media only screen and (max-width: 620px) {
+.menu-2 > .menu-1:after {
+    background-color: aqua;
+}
+.menu-1{
+    width: 100px;
+    height: 300px;
+}
+.menu-1:hover{
+    background-color: blueviolet;
+}
+
+@media only screen and (max-width: 720px) {
     .main1{
         width: 100%;
         height: 100%;
@@ -193,6 +216,9 @@ li{
     .li1{
         display: none;
     }
+    header{
+        width: 100%;
+    }
     #book{
         display: none;
     }
@@ -204,6 +230,62 @@ li{
         align-items: center;
         justify-content: center;
     }
+    .ul-drop{
+        list-style-type:none ;
+    }
+    
+    .li-drop{
+        color: white;
+        background: #d8c4a1;
+        width: 100%;
+        height: 10vh;
+        background-color: #1a1814;
+        width: 7rem;
+        padding-right: 2rem;
+    }
+    #li-drop-1{
+        background: rgba(0, 0, 0, 10%);
+        padding-bottom: 15px;
+    }
+    #icon-3{
+        font-size: 1.7rem;
+    }
+    a{
+        color: white;
+    }
+    .ul-drop{
+        width: 25%;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ul-drop .li-drop{
+        display: inline-block;
+        position: relative;
+    }
+    .ul-drop .li-drop a{
+        display: block;
+        padding: 20px 25px;
+        text-decoration: none;
+        text-align: center;
+        font-size: 18px;
+    }
+    .ul-drop .li-drop .dropdown{
+        display: block;
+    }
+    .ul-drop .li-drop .dropdown{
+        width: 100%;
+        position: absolute;
+        z-index: 999;
+        display: none;
+    }
+    
+    .li-drop:active ul.dropdown {
+        display: block;
+    }
+   
 }
 @media only screen and (max-width: 420px) {
     .main1{
@@ -217,6 +299,9 @@ li{
         background-repeat: repeat-x;
         font-size: 12vh;
         text-align: center;
+    }
+    header{
+        width: 100%;
     }
     .sef{
         margin-top: 2rem;
@@ -241,7 +326,63 @@ li{
     .ftr{
         display: none;
     }
-}
+    .ul-drop{
+        list-style-type:none ;
+    }
+    
+    .li-drop{
+        color: white;
+        background: #d8c4a1;
+        width: 100%;
+        height: 10vh;
+        background-color: #1a1814;
+        width: 7rem;
+        padding-right: 2rem;
+    }
+    #li-drop-1{
+        background: rgba(0, 0, 0, 10%);
+        padding-bottom: 15px;
+    }
+    #icon-3{
+        font-size: 1.7rem;
+    }
+    a{
+        color: white;
+    }
+    .ul-drop{
+        width: 25%;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ul-drop .li-drop{
+        display: inline-block;
+        position: relative;
+    }
+    .ul-drop .li-drop a{
+        display: block;
+        padding: 20px 25px;
+        text-decoration: none;
+        text-align: center;
+        font-size: 18px;
+    }
+    .ul-drop .li-drop .dropdown{
+        display: block;
+    }
+    .ul-drop .li-drop .dropdown{
+        width: 100%;
+        position: absolute;
+        z-index: 999;
+        display: none;
+    }
+    
+    .li-drop:active ul.dropdown {
+        display: block;
+    }
+
+    }
 
 
 .main2{
@@ -299,7 +440,7 @@ li{
     top: 25px;
 
 }
-@media only screen and (max-width: 620px){
+@media only screen and (max-width: 720px){
     .main2{
         width: 100%;
         display: flex;
@@ -314,6 +455,9 @@ li{
         display: flex;
         flex-direction: column;
         height: 100%;
+    }
+    .tpar{
+        display: none;
     }
     
 }
@@ -372,7 +516,7 @@ li{
     background-color: #CDA45E;
     transition: 0.7s;
 }
-@media only screen and (max-width: 620px){
+@media only screen and (max-width: 720px){
     .main3{
         width: 100%;
         display: flex;
@@ -465,7 +609,6 @@ li{
 }
 .must{
     line-height: 1.4;
-    /* margin-left: 35px; */
     font-size: 11px;
     color: white;
 }
@@ -487,7 +630,7 @@ li{
     color: #CDA45E;
     transition: 0.7s;
 }
-@media only screen and (max-width: 620px){
+@media only screen and (max-width: 720px){
     .main4{
         width: 100%;
         display: flex;
@@ -547,10 +690,11 @@ li{
 
     }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 340px) {
     #none1, #none2{
         display: none;
     }
+    
     }
 .main5{
     width: 100%;
@@ -613,7 +757,7 @@ li{
     font-size: 1.7rem;
     font-weight: 550;
 }
-@media only screen and (max-width: 620px){
+@media only screen and (max-width: 720px){
     .main5{
         width: 100%;
         height: 100vh; 
@@ -643,6 +787,9 @@ li{
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+    }
+    .modi{
+        padding-top: 10px;
     }
     .list{
         width: 100%;
@@ -690,7 +837,7 @@ li{
 .parties{
     color: #CDA45E ;
 }
-@media only screen and (max-width: 620px){
+@media only screen and (max-width: 720px){
     .main6{
         width: 100%;
         height: 130vh;
@@ -729,13 +876,17 @@ li{
         height: 100vh;
         justify-content: space-evenly;
     }
+    .birth-par{
+        padding-left: 1rem;
+    }
     .none{
         display: none;
     }
     .birth{
-        width: 90%;
+        width: 85%;
         margin: 0;
         margin-top: 30px;
+        padding-left: 2.2rem;
     }
     .birth-par{
         width: 100%;
@@ -829,13 +980,59 @@ li{
     border: 2px solid #d8c4a1;
     transition: 1s;
 }
+@media only screen and (max-width: 720px){
+    .main7{
+        width: 100%;
+    }
+    .form-pos{
+        align-items: center;
+        justify-content: center;
+        margin-left: 2rem;
+    }
+    #reservation1{
+        grid-column-start: 1;
+        grid-column-end: 10;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    #reservation2{
+        grid-column-start: 1;
+        grid-column-end: 10;
+        grid-row-start: 3;
+        grid-row-end: 2;
+    }
+    #reservation5{
+        grid-column-start: 1;
+        grid-column-end: 10;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    #reservation3{
+        display: none;
+    }
+    #reservation4{
+        display: none;
+    }
+    #reservation6{
+        display: none;
+    }
+    #reservation-7{
+        display: none;
+    }
+    .form-pos{
+        width: 50%;
+    }
+    #form-but1{
+        width: 7rem;
+        height: 10vh;
+        margin-left: 11rem;
+    }
+
+    }
 @media only screen and (max-width: 420px){
     .main7{
         width: 130%;
       
-    }
-    .form{
-        margin-left: 7rem;
     }
     #reservation1{
         grid-column-start: 1;
@@ -875,6 +1072,6 @@ li{
         height: 10vh;
         margin-left: 11rem;
     }
-    
+
 
 }
